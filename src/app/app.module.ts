@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopNavComponent } from './components/top-nav/top-nav.component';
 import { StatsComponent } from './components/stats/stats.component';
+import { SafetyComponent } from './components/safety/safety.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavComponent,
     StatsComponent,
+    SafetyComponent,
   ],
   imports: [
     HttpClientModule,
